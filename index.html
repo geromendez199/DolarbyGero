@@ -9,6 +9,28 @@
     <link rel="shortcut icon" href="img/favicon.ico" />
   </head>
   <body>
+    <a
+      class="weatherwidget-io"
+      href="https://forecast7.com/es/n31d25n61d49/rafaela/"
+      data-label_1="Clima"
+      data-label_2="Rafaela"
+      data-font="Roboto"
+      data-icons="Climacons Animated"
+      data-theme="metallic"
+      >Clima Rafaela</a
+    >
+    <script>
+      !(function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (!d.getElementById(id)) {
+          js = d.createElement(s);
+          js.id = id;
+          js.src = "https://weatherwidget.io/js/widget.min.js";
+          fjs.parentNode.insertBefore(js, fjs);
+        }
+      })(document, "script", "weatherwidget-io-js");
+    </script>
     <h1>Valores del Dólar</h1>
     <p>Cotización en tiempo real.</p>
     <iframe
